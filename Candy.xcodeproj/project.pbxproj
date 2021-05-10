@@ -13,6 +13,10 @@
 		0989D6BF26497570007F60A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0989D6BE26497570007F60A8 /* Preview Assets.xcassets */; };
 		0989D6C126497570007F60A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0989D6C026497570007F60A8 /* Persistence.swift */; };
 		0989D6C426497570007F60A8 /* Candy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0989D6C226497570007F60A8 /* Candy.xcdatamodeld */; };
+		0989D6DA26497A74007F60A8 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0989D6D626497A74007F60A8 /* Candy+CoreDataClass.swift */; };
+		0989D6DB26497A74007F60A8 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0989D6D726497A74007F60A8 /* Candy+CoreDataProperties.swift */; };
+		0989D6DC26497A74007F60A8 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0989D6D826497A74007F60A8 /* Country+CoreDataClass.swift */; };
+		0989D6DD26497A74007F60A8 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0989D6D926497A74007F60A8 /* Country+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0989D6C026497570007F60A8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0989D6C326497570007F60A8 /* Candy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Candy.xcdatamodel; sourceTree = "<group>"; };
 		0989D6C526497570007F60A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0989D6D626497A74007F60A8 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0989D6D726497A74007F60A8 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0989D6D826497A74007F60A8 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0989D6D926497A74007F60A8 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				0989D6B72649756D007F60A8 /* CandyApp.swift */,
+				0989D6D626497A74007F60A8 /* Candy+CoreDataClass.swift */,
+				0989D6D726497A74007F60A8 /* Candy+CoreDataProperties.swift */,
+				0989D6D826497A74007F60A8 /* Country+CoreDataClass.swift */,
+				0989D6D926497A74007F60A8 /* Country+CoreDataProperties.swift */,
 				0989D6B92649756D007F60A8 /* ContentView.swift */,
 				0989D6BB26497570007F60A8 /* Assets.xcassets */,
 				0989D6C026497570007F60A8 /* Persistence.swift */,
@@ -145,7 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0989D6C126497570007F60A8 /* Persistence.swift in Sources */,
+				0989D6DA26497A74007F60A8 /* Candy+CoreDataClass.swift in Sources */,
 				0989D6C426497570007F60A8 /* Candy.xcdatamodeld in Sources */,
+				0989D6DB26497A74007F60A8 /* Candy+CoreDataProperties.swift in Sources */,
+				0989D6DD26497A74007F60A8 /* Country+CoreDataProperties.swift in Sources */,
+				0989D6DC26497A74007F60A8 /* Country+CoreDataClass.swift in Sources */,
 				0989D6BA2649756D007F60A8 /* ContentView.swift in Sources */,
 				0989D6B82649756D007F60A8 /* CandyApp.swift in Sources */,
 			);

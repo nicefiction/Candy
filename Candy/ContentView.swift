@@ -1,4 +1,3 @@
-//
 // MARK: ContentView.swift
 /**
  `SOURCE` :
@@ -17,7 +16,7 @@
  https://www.hackingwithswift.com/forums/swiftui/is-this-correct-way-to-use-coredata-with-the-swiftui-2-0-atmain-app-protocol/2521/4404
  
  To have the candies display with their respective country without repeating the country section headers .
- OLIVIER : Also look at the Wizard project , DAY 57.5 ,
+ `OLIVIER`: Also look at the Wizard project , `DAY 57.5`,
  https://www.hackingwithswift.com/books/ios-swiftui/ensuring-core-data-objects-are-unique-using-constraints.
  */
 
